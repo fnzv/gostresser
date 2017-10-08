@@ -1,13 +1,13 @@
 # gostresser
 Easy and Fast TCP/UDP connection stresser using Goroutines workers
-
+<br>
 
 # Usage:
-Usage example:
+Usage example:<br>
  ```./gostresser <hostname> <port> <protocol> <seconds> <num_workers>``` <br>
  ```./gostresser example.com 80 tcp 120 15```
   
-  
+  <br>
  
  # TODO list:
  - Support different protocols (L1 to L7)
