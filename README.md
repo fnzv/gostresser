@@ -9,12 +9,13 @@ Usage example:<br>
   
   <br>
   
-# Quickstart:
+# Quickstart:  <br>
  ```git clone https://github.com/fnzv/gostresser && cd gostresser && go build gostresser.go```
+   <br>  <br>
 
 [![asciicast](https://asciinema.org/a/YpeuFtYDI6e4FUSsMuoDe5Yak.png)](https://asciinema.org/a/YpeuFtYDI6e4FUSsMuoDe5Yak)
   
- 
+   <br>  <br>
  # TODO list:
  - Support different protocols (L1 to L7)
  - Use all CPU with workers
