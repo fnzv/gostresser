@@ -8,6 +8,12 @@ Usage example:<br>
  ```./gostresser example.com 80 tcp 120 15```
   
   <br>
+  
+# Quickstart:
+ ```git clone https://github.com/fnzv/gostresser && cd gostresser && go build gostresser.go```
+
+[![asciicast](https://asciinema.org/a/YpeuFtYDI6e4FUSsMuoDe5Yak.png)](https://asciinema.org/a/YpeuFtYDI6e4FUSsMuoDe5Yak)
+  
  
  # TODO list:
  - Support different protocols (L1 to L7)
