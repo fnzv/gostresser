@@ -56,9 +56,9 @@ func main() {
 
 
 func loadtest(socket string,proto string){
+    conn, _ := net.Dial(proto, socket)
     for range time.Tick(time.Millisecond * 100) {
   // OPTIONS * HTTP/1.1
-        conn, _ := net.Dial(proto, socket)
         fmt.Fprintf(conn, "GET /index.php HTTP/1.1" + "\n")
         fmt.Fprintf(conn, "OPTIONS * HTTP/1.1" + "\n")
 	fmt.Fprintf(conn, "GET /"+RandStringRunes(30)+ " HTTP/1.1" + "\n")
